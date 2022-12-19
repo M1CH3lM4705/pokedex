@@ -64,6 +64,12 @@
     height: 100%;
   }
   
+  .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   h1 {
     font-size: 2.8rem;
     color: #fff;
