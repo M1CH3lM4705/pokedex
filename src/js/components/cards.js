@@ -4,7 +4,7 @@ const loader = 'https://weichiachang.github.io/pokemon-master/img/loading.45600e
 const cards = () => {
     const insertPokemonsInDom = async ({ getPokemons }) => {
         const cards = document.querySelector('[data-js="cards"]')
-        cards.innerHTML = `<img src="${loader}" />` 
+        cards.innerHTML = `<img class="loader" src="${loader}" />` 
         const pokemons = await getPokemons()
         if(!pokemons) return
         

@@ -4,7 +4,7 @@ const factoryPokemon = () => {
     let pPrevious;
 
     const linkImage = id => 
-        `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`
+        `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${id}.png`
 
     const typesName = types => types.map(({type}) => type.name).join(' | ')
 
